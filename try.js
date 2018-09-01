@@ -25,5 +25,8 @@ class Warrior extends Player {
   play(){
     console.log("HELLO", `i am also a ${this.type}`)
   }
+  defeat(){
+    console.log("dies", `help a brother out please`)
+  }
 }
 const wizard1 = new Wizard('shaw','dark magic')
